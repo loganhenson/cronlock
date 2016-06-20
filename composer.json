@@ -1,0 +1,25 @@
+{
+    "name": "loganhenson/cronlock",
+    "description": "Load balanced cron jobs. Backed by Predis.",
+    "keywords": ["redis", "cron", "lock", "load", "balancer"],
+    "type": "library",
+    "homepage" : "https://github.com/loganhenson/cronlock",
+    "authors": [
+        {
+            "name": "Logan Henson",
+            "homepage": "http://github.com/loganhenson"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CronLock\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
